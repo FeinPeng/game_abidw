@@ -1,0 +1,1848 @@
+Rooms (
+    rooms: [
+        Room (
+            room_type: Treasure,
+            num_exits: 2,
+            arena: 1,
+            encounters: None,
+            weight: 25,
+            force_select_depth_min: Some(2),
+            force_select_depth_max: Some(4),
+            is_select: false, 
+        ),
+        Room (
+            room_type: Treasure,
+            num_exits: 2,
+            arena: 1,
+            encounters: None,
+            weight: 25,
+            force_select_depth_min: Some(5),
+            force_select_depth_max: Some(7),
+            is_select: false, 
+        ),
+        Room (
+            room_type: Store,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 0.0,
+                                y: 50.0,
+                            ),
+                        ),
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: Some(5),
+            force_select_depth_max: Some(8),
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 1,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -469.0,
+                                y: -28.999998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -10.0,
+                                y: -29.99999,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: 383.00003,
+                                y: -26.999994,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Gluttony,
+                            position: DeserVec2 (
+                                x: -471.0,
+                                y: 175.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Gluttony,
+                            position: DeserVec2 (
+                                x: -20.999985,
+                                y: 159.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Gluttony,
+                            position: DeserVec2 (
+                                x: 383.00003,
+                                y: 155.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: -245.99998,
+                                y: 173.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 195.99998,
+                                y: 153.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: 189.00002,
+                                y: 2.999997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -261.0,
+                                y: 0.0,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 10,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: PreBoss,
+            num_exits: 1,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Gluttony,
+                            position: DeserVec2 (
+                                x: -25.0,
+                                y: 62.999977,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -200.99998,
+                                y: 10.000004,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -357.0,
+                                y: 10.000004,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -363.0,
+                                y: 71.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -203.0,
+                                y: 72.999985,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -375.0,
+                                y: 143.00002,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -207.0,
+                                y: 139.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -30.999985,
+                                y: 181.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -32.000008,
+                                y: 249.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 155.0,
+                                y: 126.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 324.0,
+                                y: 120.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 159.00002,
+                                y: 59.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 156.99997,
+                                y: -2.999997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 331.0,
+                                y: 53.99999,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 326.0,
+                                y: -13.000001,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 133.00003,
+                                y: 191.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 148.00003,
+                                y: 252.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -210.99998,
+                                y: 204.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -215.0,
+                                y: 261.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 299.0,
+                                y: 186.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 316.0,
+                                y: 253.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -380.0,
+                                y: 210.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -390.0,
+                                y: 271.0,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: Some(9),
+            force_select_depth_max: Some(9),
+            is_select: false, 
+        ),
+        Room (
+            room_type: PreBoss,
+            num_exits: 1,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -473.0,
+                                y: 228.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -235.99998,
+                                y: 223.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: 50.0,
+                                y: 220.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: 334.0,
+                                y: 220.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: 351.99997,
+                                y: 40.000015,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: 54.000015,
+                                y: 59.00001,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -235.99998,
+                                y: 60.999992,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -475.0,
+                                y: 49.000008,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: Some(9),
+            force_select_depth_max: Some(9),
+            is_select: false, 
+        ),
+        Room (
+            room_type: Boss,
+            num_exits: 1,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -456.0,
+                                y: 176.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 23.00003,
+                                y: 176.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 466.99997,
+                                y: 168.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -220.0,
+                                y: 178.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 261.0,
+                                y: 172.99998,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: Some(10),
+            force_select_depth_max: Some(10),
+            is_select: false, 
+        ),
+        Room (
+            room_type: PostBoss,
+            num_exits: 0,
+            arena: 1,
+            encounters: None,
+            weight: 25,
+            force_select_depth_min: Some(11),
+            force_select_depth_max: Some(11),
+            is_select: false, 
+
+        ),
+        // Room (
+        //     room_type: Combat,
+        //     num_exits: 2,
+        //     arena: 1,
+        //     encounters: Some([
+        //         Encounter (
+        //             enemys: [
+        //                 EnemyEntity (
+        //                     enemy_type: Envy,
+        //                     position: DeserVec2 (
+        //                         x: 0.0,
+        //                         y: 0.0,
+        //                     ),
+        //                 ),
+        //                 EnemyEntity (
+        //                     enemy_type: Wrath,
+        //                     position: DeserVec2 (
+        //                         x: 0.0,
+        //                         y: 100.0,
+        //                     ),
+        //                 )
+        //             ],
+        //             weight: 25,
+        //             is_select: false,
+        //         ),
+        //     ]),
+        //     weight: 25,
+        //     force_select_depth_min: None,
+        //     force_select_depth_max: None,
+        //     is_select: false, 
+        // ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -504.0,
+                                y: 268.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -322.0,
+                                y: 268.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -140.0,
+                                y: 268.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 38.00003,
+                                y: 271.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 216.99997,
+                                y: 272.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 405.0,
+                                y: 268.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 413.00003,
+                                y: 185.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 228.00003,
+                                y: 191.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 40.0,
+                                y: 192.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -143.0,
+                                y: 191.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -325.0,
+                                y: 188.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -510.0,
+                                y: 192.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -512.0,
+                                y: 111.999985,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -330.0,
+                                y: 115.99999,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -139.00002,
+                                y: 118.99999,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 54.000015,
+                                y: 117.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 240.0,
+                                y: 114.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 430.0,
+                                y: 104.99998,
+                            ),
+                        ),
+
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Envy,
+                            position: DeserVec2 (
+                                x: -22.000008,
+                                y: 294.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Envy,
+                            position: DeserVec2 (
+                                x: -32.000008,
+                                y: -36.000004,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Gluttony,
+                            position: DeserVec2 (
+                                x: -35.999985,
+                                y: 123.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -255.99998,
+                                y: 171.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -463.0,
+                                y: 178.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -473.0,
+                                y: 60.999992,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -242.0,
+                                y: 59.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 215.0,
+                                y: 178.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 445.0,
+                                y: 182.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 453.00003,
+                                y: 78.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 195.99998,
+                                y: 76.99999,
+                            ),
+                        ),
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ), 
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                       EnemyEntity (
+                            enemy_type: Pride,
+                            position: DeserVec2 (
+                                x: -15.999985,
+                                y: 276.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Pride,
+                            position: DeserVec2 (
+                                x: -17.000008,
+                                y: 182.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Pride,
+                            position: DeserVec2 (
+                                x: -19.000015,
+                                y: 78.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -517.0,
+                                y: -26.000002,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -310.0,
+                                y: -26.999994,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -144.00002,
+                                y: -28.000008,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 23.00003,
+                                y: -26.999994,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 190.99998,
+                                y: -24.999989,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 371.99997,
+                                y: -23.000004,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 531.0,
+                                y: -23.000004,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+               
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Pride,
+                            position: DeserVec2 (
+                                x: -15.999985,
+                                y: 276.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Pride,
+                            position: DeserVec2 (
+                                x: -17.000008,
+                                y: 182.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Pride,
+                            position: DeserVec2 (
+                                x: -19.000015,
+                                y: 78.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -517.0,
+                                y: -26.000002,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -310.0,
+                                y: -26.999994,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -144.00002,
+                                y: -28.000008,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 23.00003,
+                                y: -26.999994,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 190.99998,
+                                y: -24.999989,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 371.99997,
+                                y: -23.000004,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 531.0,
+                                y: -23.000004,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -347.0,
+                                y: 91.00001,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: 318.00003,
+                                y: 88.00001,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -22.999992,
+                                y: 95.999985,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -472.0,
+                                y: 268.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -204.00002,
+                                y: 266.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 68.00003,
+                                y: 272.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 349.0,
+                                y: 266.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 359.0,
+                                y: -15.999998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 84.000015,
+                                y: -21.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -185.99998,
+                                y: -28.000008,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -450.0,
+                                y: -28.000008,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                       EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: -480.0,
+                                y: 239.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: -283.0,
+                                y: 233.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 279.0,
+                                y: 220.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 458.00003,
+                                y: 210.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Gluttony,
+                            position: DeserVec2 (
+                                x: -20.0,
+                                y: 165.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -394.0,
+                                y: 78.00001,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: 361.99997,
+                                y: 78.00001,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Pride,
+                            position: DeserVec2 (
+                                x: -22.000008,
+                                y: -18.999994,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -22.999992,
+                                y: 253.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -483.0,
+                                y: 136.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -260.0,
+                                y: 136.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -35.0,
+                                y: 136.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 185.99998,
+                                y: 133.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 429.0,
+                                y: 129.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 293.00003,
+                                y: 249.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -354.0,
+                                y: 255.99997,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Gluttony,
+                            position: DeserVec2 (
+                                x: -429.0,
+                                y: 136.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Gluttony,
+                            position: DeserVec2 (
+                                x: -84.000015,
+                                y: 130.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Gluttony,
+                            position: DeserVec2 (
+                                x: 285.0,
+                                y: 130.00002,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 110.0,
+                                y: 115.99999,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: -249.00002,
+                                y: 120.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -253.0,
+                                y: 4.00001,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 123.00003,
+                                y: -7.000007,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -535.0,
+                                y: -26.000002,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -369.0,
+                                y: -26.999994,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -215.99998,
+                                y: -28.999998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 19.000015,
+                                y: -23.999996,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 178.00003,
+                                y: -26.999994,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 349.0,
+                                y: -26.000002,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 521.0,
+                                y: -26.000002,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -536.0,
+                                y: 43.00001,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -370.0,
+                                y: 43.00001,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -205.0,
+                                y: 42.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 21.99997,
+                                y: 44.999996,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 184.00002,
+                                y: 46.000008,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 349.0,
+                                y: 43.999985,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 511.0,
+                                y: 43.00001,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -528.0,
+                                y: 139.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -533.0,
+                                y: 239.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -378.0,
+                                y: 236.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -361.0,
+                                y: 133.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -210.0,
+                                y: 244.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: -210.0,
+                                y: 143.00002,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 24.000015,
+                                y: 239.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 34.000015,
+                                y: 139.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 185.99998,
+                                y: 247.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 200.99998,
+                                y: 162.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 341.0,
+                                y: 256.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 376.0,
+                                y: 163.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 501.0,
+                                y: 246.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 531.0,
+                                y: 156.99998,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -507.0,
+                                y: 20.000008,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -512.0,
+                                y: -42.999992,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -346.0,
+                                y: 21.999992,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -347.0,
+                                y: -47.999992,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -175.99998,
+                                y: 24.000017,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -177.0,
+                                y: -47.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 111.99997,
+                                y: 27.999985,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 118.00003,
+                                y: -44.000004,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 286.0,
+                                y: 24.999989,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 285.0,
+                                y: -49.000008,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 450.0,
+                                y: 24.999989,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 451.99997,
+                                y: -60.999992,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 484.0,
+                                y: 114.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 476.0,
+                                y: 247.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 321.0,
+                                y: 239.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 323.00003,
+                                y: 134.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 140.99998,
+                                y: 127.999985,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: 145.0,
+                                y: 246.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: -209.00002,
+                                y: 239.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: -245.0,
+                                y: 115.99999,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: -395.0,
+                                y: 130.00002,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: -370.0,
+                                y: 266.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: -510.0,
+                                y: 252.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Greed,
+                            position: DeserVec2 (
+                                x: -537.0,
+                                y: 149.0,
+                            ),
+                        ),
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -371.0,
+                                y: 194.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: -370.0,
+                                y: 46.000008,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: 345.0,
+                                y: 204.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Lust,
+                            position: DeserVec2 (
+                                x: 349.0,
+                                y: 46.000008,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Gluttony,
+                            position: DeserVec2 (
+                                x: -35.0,
+                                y: 127.999985,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Pride,
+                            position: DeserVec2 (
+                                x: 463.00003,
+                                y: 255.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Pride,
+                            position: DeserVec2 (
+                                x: 271.0,
+                                y: 123.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Pride,
+                            position: DeserVec2 (
+                                x: 86.99997,
+                                y: -7.000007,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -493.0,
+                                y: 243.99997,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -489.0,
+                                y: 149.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -493.0,
+                                y: 14.000014,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -500.0,
+                                y: -90.999985,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -233.0,
+                                y: -100.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: -52.999992,
+                                y: -98.999985,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 126.99997,
+                                y: -97.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 305.0,
+                                y: -92.99999,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Sloth,
+                            position: DeserVec2 (
+                                x: 481.0,
+                                y: -95.999985,
+                            ),
+                        ),
+						
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Envy,
+                            position: DeserVec2 (
+                                x: -35.999985,
+                                y: 290.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Envy,
+                            position: DeserVec2 (
+                                x: -34.000015,
+                                y: 213.0,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Envy,
+                            position: DeserVec2 (
+                                x: -35.0,
+                                y: 130.99998,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Envy,
+                            position: DeserVec2 (
+                                x: -34.000015,
+                                y: 49.000008,
+                            ),
+                        ),
+						EnemyEntity (
+                            enemy_type: Envy,
+                            position: DeserVec2 (
+                                x: -35.0,
+                                y: -26.000002,
+                            ),
+                        ),
+						
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+        Room (
+            room_type: Combat,
+            num_exits: 2,
+            arena: 1,
+            encounters: Some([
+                Encounter (
+                    enemys: [
+                        EnemyEntity (
+                            enemy_type: Envy,
+                            position: DeserVec2 (
+                                x: 0.0,
+                                y: 0.0,
+                            ),
+                        ),
+                        EnemyEntity (
+                            enemy_type: Wrath,
+                            position: DeserVec2 (
+                                x: 0.0,
+                                y: 100.0,
+                            ),
+                        )
+                    ],
+                    weight: 25,
+                    is_select: false,
+                ),
+            ]),
+            weight: 25,
+            force_select_depth_min: None,
+            force_select_depth_max: None,
+            is_select: false, 
+        ),
+    ]
+)

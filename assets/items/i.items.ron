@@ -1,0 +1,44 @@
+ItemPool (
+    pool: [
+        ItemEntity (
+            item: RubberCement,
+            weight: 25,
+        ),
+        ItemEntity (
+            item: EmeryPaper,
+            weight: 25,
+        ),
+        ItemEntity (
+            item: Placebo,
+            weight: 25,
+        ),
+        ItemEntity (
+            item: Schoolbag,
+            weight: 25,
+        ),
+        ItemEntity (
+            item: Wheel,
+            weight: 25,
+        ),
+        ItemEntity (
+            item: Concrete,
+            weight: 25,
+        ),
+        ItemEntity (
+            item: Depression,
+            weight: 25,
+        ),
+        ItemEntity (
+            item: ManicDepression,
+            weight: 25,
+        ),
+        ItemEntity (
+            item: OuijaBoard,
+            weight: 25,
+        ),
+        ItemEntity (
+            item: Spinach,
+            weight: 25,
+        ),
+    ],
+)
